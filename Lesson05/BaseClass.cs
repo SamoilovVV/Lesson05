@@ -17,6 +17,13 @@ namespace Lesson05
         private protected int PrivateProtectedValue { get; set;}
     }
 
+    class Derived : BaseClass
+    {
+        public Derived()
+        {
+           Console.WriteLine(PrivateProtectedValue);
+        }
+    }
     internal class AnotherBaseClass
     {
         public int PublicValue { get; set; }

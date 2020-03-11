@@ -18,4 +18,5 @@ namespace Lesson05
         public int Minutes { get; set; }
         public int Seconds { get; set; }
     }
+
 }

@@ -9,8 +9,9 @@ namespace Lesson05
         public const double PI = 3.141;
         public const double E = 2.81;
 
-        public readonly double K = 11.1;
+        public readonly double K  = 11.1;
 
+        public int L { get; }
         public MathLib(double k = -1)
         {
             if (k < 0)

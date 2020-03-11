@@ -14,7 +14,7 @@ namespace Lesson05
 
     public class User<T>
     {
-        public T Id { get; set; }
+        public T Id { get; set; } = default;
 
         public string Name { get; set; }
         public int Age { get; set; }
